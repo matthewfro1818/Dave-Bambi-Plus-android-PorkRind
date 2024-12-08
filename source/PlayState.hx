@@ -2956,7 +2956,7 @@ class PlayState extends MusicBeatState
 				stageName = 'daWorld';
 
 				threedbg = new BGSprite('void', -1500, -800, '', null, 1, 1, false, true);
-				bg.loadGraphic(Paths.image('backgrounds/porkrind/yello', 'shared'));
+				threedbg.loadGraphic(Paths.image('backgrounds/porkrind/yello', 'shared'));
 				threedbg.setGraphicSize(Std.int(threedbg.width * 3.5));
 				threedbg.scrollFactor.set();
 				threedbg.visible = true;
