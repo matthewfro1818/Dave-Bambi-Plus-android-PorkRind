@@ -2955,8 +2955,9 @@ class PlayState extends MusicBeatState
 				bgZoom = 0.5;
 				stageName = 'daWorld';
 
-				threedbg = new BGSprite('void', -1500, -800, '', null, 1, 1, false, true);
+				threedbg = new BGSprite('void', 0, 0, '', null, 1, 1, false, true);
 				threedbg.loadGraphic(Paths.image('backgrounds/porkrind/yello', 'shared'));
+				threedbg.setPosition(-1500, -800);
 				threedbg.setGraphicSize(Std.int(threedbg.width * 3.5));
 				threedbg.scrollFactor.set();
 				threedbg.visible = true;
@@ -2964,8 +2965,9 @@ class PlayState extends MusicBeatState
 				add(threedbg);
 				voidShader(threedbg);
 						
-				threedbg2 = new BGSprite('void', -1500, -800, '', null, 1, 1, false, true);
+				threedbg2 = new BGSprite('void', 0, 0, '', null, 1, 1, false, true);
 				threedbg2.loadGraphic(Paths.image('backgrounds/porkrind/bloo', 'shared'));
+				threedbg2.setPosition(-1500, -800);
 				threedbg2.visible = false;
 				threedbg2.setGraphicSize(Std.int(threedbg2.width * 3.5));
 				threedbg2.scrollFactor.set();
@@ -2975,6 +2977,7 @@ class PlayState extends MusicBeatState
 
 				threedbg3 = new BGSprite('void', -1500, -800, '', null, 1, 1, false, true);
 				threedbg3.loadGraphic(Paths.image('backgrounds/porkrind/evil', 'shared'));
+				threedbg3.setPosition(-1500, -800);
 				threedbg3.setGraphicSize(Std.int(threedbg3.width * 3.5));
 				threedbg3.scrollFactor.set();
 				threedbg3.visible = false;
