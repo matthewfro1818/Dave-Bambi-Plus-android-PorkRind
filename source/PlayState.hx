@@ -2938,13 +2938,13 @@ class PlayState extends MusicBeatState
 		    case 'superpave':
 	     		defaultCamZoom = 0.9;
      			curStage = 'slave';
-	    		var paul:BGSprite = new BGSprite('paul', -882.75, -367.05, ('backgrounds/the_new_dave_mod/paul'), null, 0.95, 0.95, 'shared');
+	    		var paul:BGSprite = new BGSprite('paul', -882.75, -367.05, ('backgrounds/the_new_dave_mod/paul'), null, 0.95, 0.95);
 	    		// paul.setGraphicSize(Std.int(bg.width * 1);
     			// paul.updateHitbox();
 	    		paul.antialiasing = true;
 		    	add(paul);
 
-	    		var ploor:BGSprite = new BGSprite('ploor', -796.6, 604.3, ('backgrounds/the_new_dave_mod/ploor'), null, 0.95, 0.95, 'shared');
+	    		var ploor:BGSprite = new BGSprite('ploor', -796.6, 604.3, ('backgrounds/the_new_dave_mod/ploor'), null, 0.95, 0.95);
 			    ploor.animation.play('loop');
 	    		// ploor.setGraphicSize(Std.int(bg.width * 1);
     			// ploor.updateHitbox();
@@ -2955,7 +2955,7 @@ class PlayState extends MusicBeatState
 				bgZoom = 0.5;
 				stageName = 'daWorld';
 
-				threedbg = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/yello', null, 1, 1, false, true, 'shared');
+				threedbg = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/yello', null, 1, 1, false, true);
 				threedbg.setGraphicSize(Std.int(threedbg.width * 3.5));
 				threedbg.scrollFactor.set();
 				threedbg.antialiasing = false;
@@ -2963,7 +2963,7 @@ class PlayState extends MusicBeatState
 				add(threedbg);
 				voidShader(threedbg);
 						
-				threedbg2 = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/blo', null, 1, 1, false, true, 'shared');
+				threedbg2 = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/blo', null, 1, 1, false, true);
 				threedbg2.active = false;
 				threedbg2.setGraphicSize(Std.int(threedbg2.width * 3.5));
 				threedbg2.scrollFactor.set();
@@ -2972,7 +2972,7 @@ class PlayState extends MusicBeatState
 				add(threedbg2);
 				voidShader(threedbg2);
 
-				threedbg3 = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/evil', null, 1, 1, false, true, 'shared');
+				threedbg3 = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/evil', null, 1, 1, false, true;
 				threedbg3.active = false;
 				threedbg3.setGraphicSize(Std.int(threedbg3.width * 3.5));
 				threedbg3.scrollFactor.set();
