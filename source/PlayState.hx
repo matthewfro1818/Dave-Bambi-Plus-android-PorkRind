@@ -11152,14 +11152,14 @@ class PlayState extends MusicBeatState
 				{
 					case 424:
 				           switchDad('bluegonal', dad.getPosition(), false);
-				           threedbg.active = false;
-					   threedbg2.active = true;
-					   threedbg3.active = false;
+				           threedbg.visible = false;
+					   threedbg2.visible = true;
+					   threedbg3.visible = false;
 					case 970:
 					   switchDad('redman', dad.getPosition(), false);
-					   threedbg.active = false;
-					   threedbg2.active = false;
-                                           threedbg3.active = true;
+					   threedbg.visible = false;
+					   threedbg2.visible = false;
+                                           threedbg3.visible = true;
 				}
 		}
 		if (spotLightPart && spotLight != null && spotLight.exists && curBeat % 3 == 0)
