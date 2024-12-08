@@ -2798,7 +2798,7 @@ class Character extends FlxSprite
 				flipX = false;
 
 				case 'schlingi':
-					frames = Paths.getSparrowAtlas('porkrind/charcaters/schlingi', 'shared');
+					frames = Paths.getSparrowAtlas('porkrind/characters/schlingi', 'shared');
 					animation.addByPrefix('idle', 'idle', 24, false);
 					for (anim in ['left', 'down', 'up', 'right'])
 					{
@@ -2816,7 +2816,7 @@ class Character extends FlxSprite
 					playAnim('idle');
 
 				case 'bluegonal':
-					frames = Paths.getSparrowAtlas('porkrind/charcaters/bluegonal', 'shared');
+					frames = Paths.getSparrowAtlas('porkrind/characters/bluegonal', 'shared');
 					animation.addByPrefix('idle', 'IDLE', 24, false);
 					for (anim in ['LEFT', 'DOWN', 'UP', 'RIGHT'])
 					{
@@ -2832,7 +2832,7 @@ class Character extends FlxSprite
 	
 					playAnim('idle');
 				case 'redman':
-					frames = Paths.getSparrowAtlas('porkrind/charcaters/redman', 'shared');
+					frames = Paths.getSparrowAtlas('porkrind/characters/redman', 'shared');
 					animation.addByPrefix('idle', 'idle', 24, false);
 					for (anim in ['left', 'down', 'up', 'right'])
 					{
