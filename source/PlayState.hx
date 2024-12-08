@@ -2972,7 +2972,7 @@ class PlayState extends MusicBeatState
 				add(threedbg2);
 				voidShader(threedbg2);
 
-				threedbg3 = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/evil', null, 1, 1, false, true;
+				threedbg3 = new BGSprite('void', -1500, -800, 'backgrounds/porkrind/evil', null, 1, 1, false, true);
 				threedbg3.active = false;
 				threedbg3.setGraphicSize(Std.int(threedbg3.width * 3.5));
 				threedbg3.scrollFactor.set();
